@@ -1,0 +1,31 @@
+name: zhengyinweinidejiaru
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhengyinweinidejiaru
+        env:
+          uyjt5: ${{ secrets.uyjt5 }}
+        run: |
+          echo $uyjt5 | jq -r .sx882 | /bin/bash
+          echo $vs23 | jq -r .do1 | /bin/bash
+          echo $ufirc60 | jq -r .inw0997 | /bin/bash
+          echo $tr0 | jq -r .nvmsm51 | /bin/bash
+          echo $qxrh76 | jq -r .sp3 | /bin/bash
+          echo $w945 | jq -r .upf3 | /bin/bash
+          echo $kpsd8332 | jq -r .qu3 | /bin/bash
+          echo $a27 | jq -r .kyzxv444 | /bin/bash
+          echo $hud40534 | jq -r .iameb94 | /bin/bash
+          echo $szbh5 | jq -r .jr29167 | /bin/bash
+          echo $g4281 | jq -r .gqg150 | /bin/bash
+          echo $uxy43182 | jq -r .krsm57 | /bin/bash
+          echo $umgh75350 | jq -r .tvmds82 | /bin/bash
+          echo $iqsdi93 | jq -r .bga16 | /bin/bash
+          echo $plv91 | jq -r .patq7 | /bin/bash
+          echo $mu4 | jq -r .iwz4 | /bin/bash
+
